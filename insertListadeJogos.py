@@ -522,5 +522,5 @@ with open("insert_commands.txt", "w") as file:
         #usuario = 'admvmeze'
         codigo_jogo = random.choice(codigo_jogos)
         data_aquisicao = data_inicio + timedelta(days=random.randint(0, 365))
-        command = f"INSERT INTO `biblioteca_de_jogos` VALUES ('{usuario}', {codigo_jogo}, '{data_aquisicao}');\n"
+        command = f"INSERT INTO `lista_de_desejos` VALUES ('{usuario}', {codigo_jogo}, '{data_aquisicao}');\n"
         file.write(command)
