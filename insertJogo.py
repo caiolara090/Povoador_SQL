@@ -5,8 +5,28 @@ def generate_random_game():
     desenvolvedores = ["Desenvolvedor1", "Desenvolvedor2", "Desenvolvedor3"]
     publicadores = ["Publicador1", "Publicador2", "Publicador3"]
     adjectives = ["Amazing", "Fantastic", "Epic", "Awesome", "Incredible", "Legendary", "Spectacular", "Majestic", "Glorious", "Marvelous", "Thrilling", "Unforgettable", "Stunning", "Exhilarating", "Breathtaking"]
-    nouns = ["Game", "Adventure", "World", "Quest", "War", "Journey", "Saga", "Legend", "Realm", "Battle", "Champion", "Hero", "Epic", "Masterpiece", "Warrior"]
-
+    nouns = [
+    "Legends",
+    "Heroes",
+    "Quest",
+    "Realm",
+    "Saga",
+    "Chronicles",
+    "Empire",
+    "Adventures",
+    "Dawn",
+    "Eternity",
+    "Ascension",
+    "Odyssey",
+    "Genesis",
+    "Apocalypse",
+    "Conquest",
+    "Mysteries",
+    "Legacy",
+    "Inferno",
+    "Myth",
+    "Infinity"
+]
     nome = generate_random_name(adjectives, nouns)
     classificacao_indicativa = random.choice(classificacoes_indicativas)
     desenvolvedor = random.choice(desenvolvedores)
